@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unifac"
+version = "0.1.0"
+description = "A Python implementation of the UNIFAC-Dortmund group contribution method"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Emil Kongsbach", email = "emil.cheme@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "ugropy",
+    "openpyxl",
+    "scipy"
+]
+
+[project.urls]
+Homepage = "https://github.com/Emil-Kongsbach/UNIFAC"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+unifac = ["*.xlsx"]
