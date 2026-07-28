@@ -18,12 +18,15 @@ print(mixture.gamma_singular(0))
 print(mixture.gamma_total())
 
 # stability analysis
-
 mixture.is_stable_local() # computes local stability (spinodal)
 
 mixture.is_stable_global() # computes global stability (binodal)
 
-
 mixture.is_stable()  # computes first local stability (cheap), and only if that is True it proceeds to calculate global stability (expensive)  
 
  ```
+
+# Install
+The library is installable with pip. Simply run:
+>>> pip install unifac
+
