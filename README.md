@@ -28,5 +28,7 @@ mixture.is_stable()  # computes first local stability (cheap), and only if that 
 
 # Install
 The library is installable with pip. Simply run:
->>> pip install unifac
+```bash
+pip install unifac
+```
 
