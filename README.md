@@ -1,4 +1,7 @@
 # UNIFAC
+> [!WARNING]
+> There are several issues which will give wrong results. New version coming soon.
+> 
  An implementation of the group contribution method of the Dortmund modification of UNIFAC. Calculates the activity coeficients of species in a mixture based on functional group parameters
 
  ```
